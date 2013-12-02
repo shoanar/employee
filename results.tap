@@ -1,0 +1,35 @@
+1..1
+not ok 1 Employee Directory "before all" hook
+  Error: Not found
+      at Object.core.Node.removeChild (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/node_modules/jsdom/lib/jsdom/level1/core.js:609:13)
+      at Object.target (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/node_modules/jsdom/lib/jsdom/level2/events.js:352:17)
+      at Object.proto.(anonymous function) [as removeChild] (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/node_modules/jsdom/lib/jsdom/utils.js:21:26)
+      at <anonymous>:2:19760
+      at <anonymous>:2:19954
+      at <anonymous>:4:26413
+      at Contextify.sandbox.run (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/node_modules/contextify/lib/contextify.js:12:24)
+      at Object.window._evaluate (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/lib/zombie/window.js:183:25)
+      at Object.HTML.languageProcessors.javascript (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/lib/zombie/scripts.js:23:21)
+      at Object.define.proto._eval (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/node_modules/jsdom/lib/jsdom/level2/html.js:1295:47)
+      at Object.loaded (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/lib/zombie/scripts.js:69:23)
+      at /home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/node_modules/jsdom/lib/jsdom/level2/html.js:51:20
+      at Object.item.check (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/node_modules/jsdom/lib/jsdom/level2/html.js:280:11)
+      at Object.item.check (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/node_modules/jsdom/lib/jsdom/level2/html.js:283:23)
+      at /home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/node_modules/jsdom/lib/jsdom/level2/html.js:298:12
+      at /home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/lib/zombie/eventloop.js:238:18
+      at /home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/lib/zombie/eventloop.js:140:11
+  From previous event:
+      at EventLoop.wait (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/lib/zombie/eventloop.js:21:18)
+      at Browser.wait (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/lib/zombie/browser.js:282:30)
+      at Browser.visit (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/node_modules/zombie/lib/zombie/browser.js:436:10)
+      at Context.<anonymous> (/home/ubuntu/e/employeedirectory/EmployeeDirectoryLocal/test/test.js:15:18)
+      at Hook.Runnable.run (/usr/lib/node_modules/mocha/lib/runnable.js:194:15)
+      at next (/usr/lib/node_modules/mocha/lib/runner.js:249:10)
+      at /usr/lib/node_modules/mocha/lib/runner.js:256:7
+      at Hook.Runnable.run (/usr/lib/node_modules/mocha/lib/runnable.js:213:5)
+      at next (/usr/lib/node_modules/mocha/lib/runner.js:249:10)
+      at Object._onImmediate (/usr/lib/node_modules/mocha/lib/runner.js:261:5)
+      at processImmediate [as _immediateCallback] (timers.js:330:15)
+# tests 1
+# pass 0
+# fail 1
